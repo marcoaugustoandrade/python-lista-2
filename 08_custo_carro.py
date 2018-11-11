@@ -1,9 +1,3 @@
-# BACKES, 2012) O custo ao consumidor de um carro novo e a soma do custo de fábrica, da comissão do distribuidor, e dos impostos. A comissão e os impostos são calculados sobre o custo de fábrica, de acordo com a tabela abaixo. Leia o custo de fábrica e escreva o custo ao consumidor.
-#  Custo de fábrica                     % do distribuidor       % dos impostos
-#  Até R$ 12.000,00                     5                       isento
-#  Entre R$ 12.000,00 e R$ 25.000,00    10                      15
-#  Acima de R$ 25.000,00                15                      20
-
 custo = float(input('Informe o custo de fábrica: R$ '))
 
 if custo <= 12000.00:

@@ -17,5 +17,19 @@ elif operacao == '*':
 elif operacao == '/':
     resultado = n1 / n2
 
-print("%.2f %s %.2f = %.2f" % (n1, operacao, n2, resultado))
+if resultado % 2 == 0:
+    par_impar = "par"
+else:
+    par_impar = "ímpar"
 
+if resultado >= 0:
+    positivo_negativo = "positivo"
+else:
+    positivo_negativo = "negativo"
+
+if resultado % 1 == 0:
+    inteiro_decimal = "inteiro"
+else:
+    inteiro_decimal = "decimal"
+
+print("O resultado da operação é %.2f, %s, %s e %s" % (resultado, par_impar, positivo_negativo, inteiro_decimal))
